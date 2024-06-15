@@ -9,8 +9,8 @@ public class Player {
     private PlayerType playerType;
 
     public Player(String name, Character symbol, PlayerType playerType) {
-        this.name = name;
-        this.symbol = symbol;
+        setName(name);
+        setSymbol(symbol);
         this.playerType = playerType;
     }
 
